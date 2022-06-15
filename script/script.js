@@ -10,7 +10,7 @@ async function displayData() {
   let data = await getData();
   data.results.forEach((item, index) => {
     let result = `
-        <div id="${index}" class="card m-3 p-3 text-center" style="width:400px">
+        <div id="${index}" class="card m-3 p-3 mx-auto text-center" style="width:380px">
             <img class="rounded-circle w-50 mx-auto" src="${item["picture"].large}" alt="Card image">
             <div class="card-body">
             <p class="card-text">My Name is</p>
